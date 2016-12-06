@@ -9,7 +9,7 @@ phases:
       - npm test
   build:
     commands:
-      - serverless deploy --stage ${env:stage}
+      - serverless deploy --stage ${stage}
 artifacts:
   files:
     - .serverless/**
