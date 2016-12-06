@@ -4,10 +4,8 @@ phases:
     commands:
       - npm install serverless -g
       - npm install
-  build:
-    commands:
-      - echo Build started on `date`
+      - npm test
       - serverless deploy
 artifacts:
   files:
-    - target/aws-nodejs.zip
+    - .serverless/**
