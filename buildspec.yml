@@ -11,5 +11,6 @@ phases:
     commands:
       - serverless deploy --stage ${stage} --region ${region}
 artifacts:
+  namespaceType: ${BUILD_ID}
   files:
     - .serverless/**
