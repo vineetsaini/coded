@@ -8,3 +8,6 @@ phases:
     commands:
       - echo Build started on `date`
       - serverless deploy
+artifacts:
+  files:
+    - target/aws-nodejs.zip
