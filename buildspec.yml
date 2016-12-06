@@ -4,7 +4,11 @@ phases:
     commands:
       - npm install serverless -g
       - npm install
+  pre_build:
+    commands:
       - npm test
+  build:
+    commands:
       - serverless deploy
 artifacts:
   files:

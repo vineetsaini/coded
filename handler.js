@@ -23,7 +23,7 @@ function createResponse(){
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Code Deploy via Pipeline 2'
+      message: 'Go Code Deploy via Pipeline 3'
     })
   };
   return response;
