@@ -20,8 +20,8 @@ service: aws-nodejs # NOTE: update this with your service name
 provider:
   name: aws
   runtime: nodejs4.3
-  stage: dev
-  region: us-west-2
+  #stage: dev
+  #region: us-west-2
 
 # you can overwrite defaults here
 #  stage: dev
@@ -54,7 +54,9 @@ provider:
 #  exclude:
 #    - exclude-me.js
 #    - exclude-me-dir/**
-
+package:
+  exclude:
+    - test/**
 functions:
   hello:
     handler: handler.hello
