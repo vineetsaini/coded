@@ -34,7 +34,7 @@ describe('createResponse', function() {
         });
         it("testResponseCode",function(){
                 
-                expect(response.statusCode).to.equal(2009);
+                expect(response.statusCode).to.equal(200);
         });
         
 });
