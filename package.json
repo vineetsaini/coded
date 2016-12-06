@@ -1,0 +1,26 @@
+{
+  "name": "codeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineetsaini/codeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineetsaini/codeb/issues"
+  },
+  "homepage": "https://github.com/vineetsaini/codeb#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.15"
+  }
+}
